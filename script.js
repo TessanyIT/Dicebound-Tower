@@ -931,3 +931,4 @@ function checkIfGameOver() {
 
 document.getElementById("attack-card").onclick = playerAttack;
 document.getElementById("heal-card").onclick = playerHeal;
+

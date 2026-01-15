@@ -39,7 +39,7 @@ html, body {
 }
 
 #class-select{
-  background-image: url("assets/backgrounds/Floor.png");
+  background-image: url("backgrounds/Floor.png");
   background-size: cover;
 }
 
@@ -239,12 +239,12 @@ html, body {
 }
 
 #menu {
-  background-image: url("assets/backgrounds/Floor.png");
+  background-image: url("backgrounds/Floor.png");
   background-size: cover;
 }
 
 #game{
-  background-image: url("assets/backgrounds/Floor-fight.png"); 
+  background-image: url("backgrounds/Floor-fight.png"); 
   background-size: 100% 100%;        
   background-repeat: no-repeat;
   background-position: bottom center; 
@@ -256,7 +256,7 @@ html, body {
 }
 
 #floor-1{
-  background-image: url("assets/backgrounds/Floor-fight.png"); 
+  background-image: url("backgrounds/Floor-fight.png"); 
   background-size: 100% 100%;        
   background-repeat: no-repeat;
   background-position: bottom center; 
@@ -268,7 +268,7 @@ html, body {
 }
 
 #tutorial {
-  background-image: url("assets/backgrounds/Floor.png");
+  background-image: url("backgrounds/Floor.png");
   background-size: cover;
 }
 
@@ -551,7 +551,7 @@ html, body {
   top: -80px;
   left: 20%;
   transform: translateX(-50%);
-  background: url('assets/characters/effects/heal-effect.png') no-repeat center;
+  background: url('characters/effects/heal-effect.png') no-repeat center;
   background-size: contain;
   image-rendering: pixelated;
   pointer-events: none;

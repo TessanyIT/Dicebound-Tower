@@ -20,17 +20,17 @@ let playerAttackTimer = null;
 
 const playerSpriteInfo = {
   thief: { 
-    folder: "assets/characters/class-select/thief/", 
+    folder: "characters/class-select/thief/", 
     idleFrames: 4,
     attackFrames: 0
   },
   mage: { 
-    folder: "assets/characters/class-select/mage/", 
+    folder: "characters/class-select/mage/", 
     idleFrames: 4, 
     attackFrames: 0 
   },
   swordsman: { 
-    folder: "assets/characters/class-select/swordsman/", 
+    folder: "characters/class-select/swordsman/", 
     idleFrames: 4, 
     attackFrames: 4
   }
@@ -150,49 +150,49 @@ const enemyTypes = {
     maxHp: 15,
     idleFrames: 4,
     attackFrames: 0,
-    folder: "assets/enemies/slime/"
+    folder: "enemies/slime/"
   },
   enemy1: {
     name: "Enemy 1",
     maxHp: 25,
     idleFrames: 4,
     attackFrames: 4,
-    folder: "assets/enemies/1/"
+    folder: "enemies/1/"
   },
   enemy2: {
     name: "Enemy 2",
     maxHp: 40,
     idleFrames: 4,
     attackFrames: 4,
-    folder: "assets/enemies/2/"
+    folder: "enemies/2/"
   },
   enemy3: {
     name: "Enemy 3",
     maxHp: 55,
     idleFrames: 4,
     attackFrames: 4,
-    folder: "assets/enemies/3/"
+    folder: "enemies/3/"
   },
   enemy4: {
     name: "Enemy 4",
     maxHp: 70,
     idleFrames: 4,
     attackFrames: 4,
-    folder: "assets/enemies/4/"
+    folder: "enemies/4/"
   },
   enemy5: {
     name: "Enemy 5",
     maxHp: 85,
     idleFrames: 4,
     attackFrames: 4,
-    folder: "assets/enemies/5/"
+    folder: "enemies/5/"
   },
   boss: {
     name: "Boss",
     maxHp: 120,
     idleFrames: 4,
     attackFrames: 4,
-    folder: "assets/enemies/boss/"
+    folder: "enemies/boss/"
   }
 };
 
@@ -931,4 +931,3 @@ function checkIfGameOver() {
 
 document.getElementById("attack-card").onclick = playerAttack;
 document.getElementById("heal-card").onclick = playerHeal;
-
